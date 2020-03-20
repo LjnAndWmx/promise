@@ -19,3 +19,10 @@ console.log(flag)
 let isBoolean = checkType('Boonlean')
 let flag2 = isBoolean(true)
 console.log(flag2)
+
+let util = {}
+['Number','String','Boolean'].forEach(item => {
+    //相当于将函数 先调用依次
+    // util['is'+item] = 
+
+});
